@@ -3,7 +3,7 @@ Redmine::Plugin.register :redmine_custom_menu do
   author 'Vincent Fréman'
   description 'Plugin for customize Redmine project menu'
   version '0.0.1'
-  url ''
+  url 'https://github.com/vfreman/redmine_custom_menu'
   author_url 'http://www.vfreman.com'
 end
 
