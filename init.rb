@@ -1,10 +1,10 @@
-Redmine::Plugin.register :custom_menu do
-  name 'Custom Menu plugin'
-  author 'Soleil Noir'
-  description 'Change menu items\' order'
+Redmine::Plugin.register :redmine_custom_menu do
+  name 'Redmine Custom Menu plugin'
+  author 'Vincent Fréman'
+  description 'Plugin for customize Redmine project menu'
   version '0.0.1'
   url ''
-  author_url 'http://www.soleilnoir.net'
+  author_url 'http://www.vfreman.com'
 end
 
 Redmine::MenuManager.map :project_menu do |menu|
